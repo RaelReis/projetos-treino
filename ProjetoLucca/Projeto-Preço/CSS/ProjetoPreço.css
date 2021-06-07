@@ -55,21 +55,26 @@ h4 {
 }
 
 .preço-botao {
-        color: #348EFE;
-        margin: 25px 120px ;
-        padding: 15px 35px;
-        align-items: center;
-        border: 1px;
-        border-radius: 10px;
-        text-align: center;
-      }
+    color: #348EFE;
+    margin: 25px 120px ;
+    padding: 15px 35px;
+    border: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
       
 .preçobotao {
-        color: #ffffff;
-        margin: 25px 120px ;
-        padding: 15px 35px;
-        align-items: center;
-        border: 1px;
-        border-radius: 10px;
-        background-color: #48aaff;
+    color: #ffffff;
+    margin: 25px 120px ;
+    padding: 15px 35px;
+    align-items: center;
+    border: 1px;
+    border-radius: 10px;
+    background-color: #48aaff;
+    cursor: pointer;
+}
+
+.preço {
+    display: flex;
+    flex-direction: column;
 }
