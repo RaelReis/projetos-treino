@@ -112,3 +112,8 @@ h2 {
 .mid-button:hover {
     background-color: #3392ff;
 }
+
+.small-team {
+    border-left: 1px solid #e1f1ff ;
+    border-right: 1px solid #e1f1ff;
+}
