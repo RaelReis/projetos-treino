@@ -16,13 +16,16 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
+    padding: 25px;
     
 }
 
 h2 {
     text-align: center;
     font-size: 30px;
-    color: blue
+    color: blue;
+    display: block;
+    font-weight: 700;
 }
 
 
@@ -41,11 +44,32 @@ h4 {
 .PersonalIMG, .SmallTeamIMG, .enterpriseIMG {
     width: 60%;
     text-align: center;
+    padding: 25px;
     
 }
 
 .Personal-subs, .smallteam-subs, .enterprise-subs {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    padding: 25px;
 }
 
+.preço-botao {
+        color: #348EFE;
+        margin: 25px 120px ;
+        padding: 15px 35px;
+        align-items: center;
+        border: 1px;
+        border-radius: 10px;
+        text-align: center;
+      }
+      
+.preçobotao {
+        color: #ffffff;
+        margin: 25px 120px ;
+        padding: 15px 35px;
+        align-items: center;
+        border: 1px;
+        border-radius: 10px;
+        background-color: #48aaff;
+}
