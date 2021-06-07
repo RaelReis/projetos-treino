@@ -39,7 +39,10 @@ h4 {
     color: #016ff9;
     border-bottom: 1px solid #e1f1ff;
     letter-spacing: 1px;
-    padding:10px
+    padding:10px;
+    max-width: 65%;
+    font-weight: revert;
+    margin: 15px auto;
 }
 
 .PersonalIMG, .SmallTeamIMG, .enterpriseIMG {
