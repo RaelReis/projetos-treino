@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #60a9ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2c8eff;
+    font-size: 14px;
+    border-bottom: 1px solid #e1f1ff;
+    padding: 15px 0;
+}
+
+h2 {
+    color: gray;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    padding: 15px;
+}
+
+.container img {
+    width: 70%;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.container .box .image-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container .box .image-name h2 {
+    margin-top: 15px;
+}
+
+.container .box .info {
+    max-width: 70%;
+    text-align: center;
+    height: 100%;
+}
+
+.primeiro {
+    border-top: 1px solid #e1f1ff;
+}
+
+.price-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.price-button span {
+    padding: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0077ff;
+}
+
+.price-button button {
+    margin-top: 15px;
+    padding: 13px 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid #90c4ff;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #0077ff;
+    transition: all 0.2s ease-in;
+}
+
+.price-button .mid-button {
+    background-color: #60a9ff;
+    color: white;
+}
+
+.left-button:hover,.right-button:hover {
+    background-color: #d0e6ff;
+}
+
+.mid-button:hover {
+    background-color: #3392ff;
+}
